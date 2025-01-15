@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-feature-settings: "ss02";
+}
+
+/* *{
+	border: 1px solid red;
+} */
