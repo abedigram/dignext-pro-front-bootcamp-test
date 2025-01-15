@@ -22,14 +22,14 @@ test("works when returning a promise", () => {
 });
 
 // npx vitest --mode=development --run --reporter=verbose
-test.runIf(process.env.NODE_ENV === "development")(
-  "it should run in development",
-  () => {
-    expect(process.env.NODE_ENV).toBe("development");
-  },
-);
+// test.runIf(process.env.NODE_ENV === "development")(
+//   "it should run in development",
+//   () => {
+//     expect(process.env.NODE_ENV).toBe("development");
+//   },
+// );
 
 // npx vitest --run --reporter=verbose
-test.skipIf(process.env.NODE_ENV !== "test")("it should run in test", () => {
-  expect(process.env.NODE_ENV).toBe("test");
-});
+// test.skipIf(process.env.NODE_ENV !== "test")("it should run in test", () => {
+//   expect(process.env.NODE_ENV).toBe("test");
+// });

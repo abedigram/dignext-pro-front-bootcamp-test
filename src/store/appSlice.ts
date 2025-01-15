@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { Food } from "../data/getFoods";
+import { Food } from "../data/types";
 
 // Define a type for the slice state
 export interface appState {

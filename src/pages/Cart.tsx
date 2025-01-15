@@ -13,7 +13,7 @@ export default function Cart() {
       <List foods={cart} />
       <MList>
         <ListItem>
-          <ListItemText primary={"مجموع سبد"} secondary={totalPayment(cart, 55000, true)} />
+          <ListItemText primary={"مجموع سبد"} secondary={totalPayment(cart)} />
         </ListItem>
       </MList>
       <Button variant="contained" size="large" sx={{ m: 2 }}>

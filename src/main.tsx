@@ -11,7 +11,6 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router";
-import { prefixer } from "stylis";
 import rtlPlugin from "stylis-plugin-rtl";
 import App from "./App.tsx";
 import { BottomNav } from "./components/BottomNav.tsx";
@@ -33,7 +32,7 @@ const theme = createTheme({
 
 const rtlCache = createCache({
   key: "muirtl",
-  stylisPlugins: [prefixer, rtlPlugin],
+  stylisPlugins: [rtlPlugin],
 });
 
 createRoot(document.getElementById("root")!).render(
