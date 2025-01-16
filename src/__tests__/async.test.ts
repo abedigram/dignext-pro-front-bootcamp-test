@@ -39,7 +39,7 @@ it('passes if use an `async/await`', async () => {
 
 it('passes if we expect it to resolve', () => {
   const result = addAsync(2, 3);
-  expect(result).resolves.toBe(5);
+  expect(result).resolves.toBe(5)
 });
 
 it('passes if we expect to reject', () => {
